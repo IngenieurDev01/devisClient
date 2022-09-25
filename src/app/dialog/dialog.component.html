@@ -1,0 +1,26 @@
+<h1 mat-dialog-title>New Client Register</h1>
+<div mat-dialog-content>
+    <form [formGroup] = "productForm">
+        <!---VOTRE NOM--->
+    <mat-form-field appearance="outline">
+        <mat-label>NOM</mat-label>
+        <input formControlName="NOM" matInput placeholder="Veillez saisir votre nom">
+    </mat-form-field>
+
+    <!---VOTRE PRENOM--->
+    <mat-form-field appearance="outline">
+        <mat-label>PRENOM</mat-label>
+        <input formControlName="PRENOM" matInput placeholder="Veillez saisir votre prenom">
+    </mat-form-field>
+
+    <!---VOTRE NUMERO DE TELEPHONE-->
+    <mat-form-field appearance="outline">
+        <mat-label>NUMERO</mat-label>
+        <input formControlName="NUMERO" type="number" matInput placeholder="Eg: +228 xxxxxxxx">
+    </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button style="margin-left: 9px;" mat-raised-button color="primary" (click)="ajoutclient()">{{actionBtn}}</button>
+</div>

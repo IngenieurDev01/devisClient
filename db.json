@@ -1,0 +1,68 @@
+{
+  "listclients": [
+    {
+      "NOM": "germain",
+      "PRENOM": "Yao",
+      "NUMERO": 45128765,
+      "id": 1
+    },
+    {
+      "NOM": "sedji",
+      "PRENOM": "toto",
+      "NUMERO": 87451203,
+      "id": 2
+    },
+    {
+      "NOM": "fifel",
+      "PRENOM": "adel",
+      "NUMERO": 54217898,
+      "id": 3
+    },
+    {
+      "NOM": "azerty",
+      "PRENOM": "clarisse",
+      "NUMERO": 12457865,
+      "id": 4
+    },
+    {
+      "NOM": "terince",
+      "PRENOM": "doris",
+      "NUMERO": 78451232,
+      "id": 5
+    },
+    {
+      "NOM": "newman",
+      "PRENOM": "solange",
+      "NUMERO": 5217898,
+      "id": 6
+    },
+    {
+      "NOM": "portier",
+      "PRENOM": "robert",
+      "NUMERO": 56321478,
+      "id": 7
+    },
+    {
+      "NOM": "razak",
+      "PRENOM": "kader",
+      "NUMERO": 45120265,
+      "id": 8
+    },
+    {
+      "NOM": "abdoul",
+      "PRENOM": "kofa",
+      "NUMERO": 2541047,
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
